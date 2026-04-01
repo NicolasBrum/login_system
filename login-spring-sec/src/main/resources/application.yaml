@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: login-spring-sec
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: admin
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
